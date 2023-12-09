@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background: gray;
+}
+
+.circle {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: solid 2px black;
+  border-top: solid 2px red;
+  animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

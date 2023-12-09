@@ -1,0 +1,14 @@
+body {
+  background: gray;
+}
+
+.slide {
+  animation: animate1 4s linear;
+  border: solid black 2px;
+}
+
+@keyframes animate1 {
+  to {
+    transform: translateX(400%);
+  }
+}
